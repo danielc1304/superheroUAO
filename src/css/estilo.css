@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+
+/* CSS HEX 
+--red-salsa: #E55150ff;
+--english-red: #A83A41ff;
+--charcoal: #3F434Cff;
+--dark-sky-blue: #8CB4C5ff;
+--raisin-black: #27181Bff;
+--roman-silver: #7F8895ff;
+*/
+
+h1 {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 75px;
+  font-weight: 10000;
+  text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em black;
+}
+
+main {
+  padding-left: 200px;
+}
+
+aside {
+  display: block;
+  width: 30%;
+  padding-top: 100px;
+  padding-left: 15px;
+  padding-right: 40px;
+  margin-left: 15px;
+  float: right;
+  text-align: center;
+}
+
+footer {
+  padding: 50px;
+}
+
+p {
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 400px;
+  color: rgb(184, 184, 184);
+}
+
+li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.body {
+  margin: 0%;
+  background-color: rgb(23, 22, 22);
+  background-color: linear-gradient(
+    90deg,
+    rgba(23, 22, 22, 1) 0%,
+    rgba(34, 1, 0, 1) 100%
+  );
+}
+
+.banner {
+  margin: 0%;
+  background: url("imgs/dots.jpg");
+  min-height: 250px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.headertitle {
+  color: white;
+  margin: 0%;
+  padding: 10px 10px 30px 10px;
+  text-align: center;
+  background: rgb(224, 22, 22);
+  background: linear-gradient(
+    90deg,
+    rgba(224, 22, 22, 1) 0%,
+    rgba(255, 57, 47, 1) 50%,
+    rgba(224, 22, 22, 1) 100%
+  );
+}
+
+.title {
+  color: rgb(214, 214, 214);
+  font-size: 50px;
+  font-family: "Zen Kurenaido", sans-serif;
+  margin: 0;
+  padding: 50px 0px 10px 0px;
+}
+
+.mainhero {
+  padding-left: 75px !important;
+}
+
+.phero {
+  padding: 10px !important;
+}
+
+.texto {
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 400px;
+  color: rgb(184, 184, 184);
+}
+
+.zoom {
+  transition: transform 0.2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+a {
+  color: tomato;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.quote {
+  margin: 0;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 400px;
+  color: rgb(121, 121, 121);
+}
+
+.shazambanner {
+  margin: 0%;
+  padding: 10px 10px 30px 10px;
+  text-align: center;
+  background: url("imgs/shazamcompleto.jpg");
+  background-size: cover;
+  background-position-y: 500px;
+}
+
+.aquamanbanner {
+  margin: 0%;
+  padding: 10px 10px 30px 10px;
+  text-align: center;
+  background: url("imgs/aquaman/aquamanbanner.jpg");
+  background-size: cover;
+  background-position-y: 600px;
+}
+
+.greenbanner {
+  margin: 0%;
+  padding: 10px 10px 30px 10px;
+  text-align: center;
+  background: url("imgs/green/greenlanternbanner.jpg");
+  background-size: cover;
+  background-position-y: 600px;
+}
+
+.herotitle {
+  color: white;
+  margin: 0%;
+  padding: 10px 10px 30px 10px;
+  text-align: center;
+}
+
+.sideimg {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+}
